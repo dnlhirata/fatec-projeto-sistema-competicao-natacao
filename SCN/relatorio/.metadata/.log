@@ -1,0 +1,1679 @@
+!SESSION 2017-10-18 20:22:29.170 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY com.jaspersoft.studio 1 0 2017-10-18 20:22:36.872
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-18 20:22:58.486
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dnlhi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-18 20:24:32.505
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2017-10-25 19:59:36.973 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-25 19:59:43.018
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-10-25 19:59:50.178
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-25 20:00:10.105
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dnlhi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-10-31 16:25:55.827 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-31 16:25:57.721
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-10-31 16:25:59.394
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-31 16:26:06.160
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.help 4 0 2017-10-31 16:27:04.414
+!MESSAGE Error reading context-sensitive help file /"com.jaspersoft.studio.data.mongodb/context.xml" (skipping file)
+!STACK 0
+java.io.FileNotFoundException
+	at org.eclipse.help.internal.context.ContextFileProvider.loadContexts(ContextFileProvider.java:206)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContexts(ContextFileProvider.java:181)
+	at org.eclipse.help.internal.context.ContextFileProvider.getPluginContexts(ContextFileProvider.java:158)
+	at org.eclipse.help.internal.context.ContextFileProvider.getContext(ContextFileProvider.java:84)
+	at org.eclipse.help.internal.context.ContextManager.getContext(ContextManager.java:65)
+	at org.eclipse.help.HelpSystem.getContext(HelpSystem.java:49)
+	at org.eclipse.ui.internal.help.WorkbenchHelpSystem.displayHelp(WorkbenchHelpSystem.java:928)
+	at com.jaspersoft.studio.wizards.JSSHelpWizardPage.performHelp(JSSHelpWizardPage.java:91)
+	at org.eclipse.jface.wizard.WizardDialog.lambda$1(WizardDialog.java:483)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:154)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:802)
+	at org.eclipse.jface.dialogs.TrayDialog.helpPressed(TrayDialog.java:375)
+	at org.eclipse.jface.dialogs.TrayDialog.access$2(TrayDialog.java:368)
+	at org.eclipse.jface.dialogs.TrayDialog$1.widgetSelected(TrayDialog.java:280)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:249)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:993)
+	at com.jaspersoft.studio.data.ui.WizardQueryEditorComposite$1.run(WizardQueryEditorComposite.java:71)
+	at com.jaspersoft.studio.data.sql.SQLQueryDesigner.updateMetadata(SQLQueryDesigner.java:289)
+	at com.jaspersoft.studio.data.sql.SQLQueryDesigner$3.run(SQLQueryDesigner.java:280)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at com.jaspersoft.studio.wizards.JSSWizardHandler.createAndOpenWizardDialog(JSSWizardHandler.java:93)
+	at com.jaspersoft.studio.wizards.JSSWizardHandler.execute(JSSWizardHandler.java:66)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:282)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:264)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:488)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:433)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:454)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem$3.handleEvent(AbstractContributionItem.java:482)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.jaspersoft.studio.rcp.intro.Application.start(Application.java:91)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SESSION 2017-10-31 16:27:19.258 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-31 16:27:21.053
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-10-31 16:27:22.762
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-31 16:27:28.881
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-10-31 16:36:01.559 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-31 16:36:03.670
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-10-31 16:36:05.664
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-31 16:36:13.281
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-10-31 16:44:32.318 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-31 16:44:34.329
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-10-31 16:44:36.126
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-31 16:44:43.124
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-10-31 16:59:11.638
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-31 16:59:11.638
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4af6839c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@850579f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SESSION 2017-10-31 16:59:26.925 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-31 16:59:30.986
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-10-31 16:59:35.160
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-31 16:59:46.552
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-10-31 18:00:44.423 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-31 18:00:48.252
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-10-31 18:00:52.561
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-31 18:01:03.426
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-10-31 18:49:42.886
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-31 18:49:42.886
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bbd0006,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7a3eee76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SESSION 2017-10-31 18:58:22.005 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-31 18:58:25.655
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-10-31 18:58:31.592
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.equinox.app 4 2 2017-10-31 18:59:02.735
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.equinox.app".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Shell.close(Shell.java:545)
+	at org.eclipse.ui.splash.AbstractSplashHandler.dispose(AbstractSplashHandler.java:63)
+	at org.eclipse.ui.splash.BasicSplashHandler.dispose(BasicSplashHandler.java:183)
+	at org.eclipse.ui.internal.Workbench$6$1.applicationRunning(Workbench.java:859)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle$1.run(EclipseAppHandle.java:268)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.applicationRunning(EclipseAppHandle.java:258)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1068)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.jaspersoft.studio.rcp.intro.Application.start(Application.java:91)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-31 18:59:04.704
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-10-31 19:13:37.416 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-31 19:13:39.295
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-10-31 19:13:41.032
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-31 19:13:51.453
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-10-31 19:14:11.359
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-31 19:14:11.360
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6905d030,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63d478a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY org.eclipse.text 4 2 2017-10-31 19:14:22.690
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.getLinePixel(StyledText.java:4254)
+	at org.eclipse.swt.custom.StyledText.handleTextChanging(StyledText.java:6361)
+	at org.eclipse.swt.custom.StyledText$6.textChanging(StyledText.java:5707)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextChanging(DefaultDocumentAdapter.java:367)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentAboutToBeChanged(DefaultDocumentAdapter.java:284)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:632)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1132)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-10-31 19:14:22.697
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Scrollable.getVerticalBar(Scrollable.java:280)
+	at org.eclipse.swt.custom.StyledText.reset(StyledText.java:7991)
+	at org.eclipse.swt.custom.StyledText.handleTextSet(StyledText.java:6390)
+	at org.eclipse.swt.custom.StyledText$6.textSet(StyledText.java:5715)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextSet(DefaultDocumentAdapter.java:339)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentChanged(DefaultDocumentAdapter.java:264)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:735)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-10-31 19:14:22.708
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7932)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4692)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4769)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:560)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.access$3(PresentationReconciler.java:545)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:212)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2699)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:743)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-31 19:34:34.396
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2017-10-31 19:34:47.394 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-10-31 19:34:50.010
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-10-31 19:34:52.348
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-31 19:35:04.234
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-10-31 19:36:29.695
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-31 19:36:29.695
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8a11a19,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6c32da37,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY org.eclipse.text 4 2 2017-10-31 19:36:48.282
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.getLinePixel(StyledText.java:4254)
+	at org.eclipse.swt.custom.StyledText.handleTextChanging(StyledText.java:6361)
+	at org.eclipse.swt.custom.StyledText$6.textChanging(StyledText.java:5707)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextChanging(DefaultDocumentAdapter.java:367)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentAboutToBeChanged(DefaultDocumentAdapter.java:284)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:632)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1132)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-10-31 19:36:48.291
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Scrollable.getVerticalBar(Scrollable.java:280)
+	at org.eclipse.swt.custom.StyledText.reset(StyledText.java:7991)
+	at org.eclipse.swt.custom.StyledText.handleTextSet(StyledText.java:6390)
+	at org.eclipse.swt.custom.StyledText$6.textSet(StyledText.java:5715)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextSet(DefaultDocumentAdapter.java:339)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentChanged(DefaultDocumentAdapter.java:264)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:735)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-10-31 19:36:48.299
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7932)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4692)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4769)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:560)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.access$3(PresentationReconciler.java:545)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:212)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2699)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:743)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-11-01 18:52:00.255 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 18:52:05.489
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-01 18:52:10.457
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-01 18:52:27.709
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-11-01 18:53:04.888
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-01 18:53:04.888
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bbd0006,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64aa7a33,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SESSION 2017-11-01 19:01:01.081 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 19:01:03.011
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-01 19:01:04.763
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-01 19:01:14.631
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-11-01 19:02:47.953
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-01 19:02:47.953
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b85edc7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6aabacb7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SESSION 2017-11-01 19:04:54.000 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 19:04:56.054
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-01 19:04:57.976
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-01 19:05:08.270
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-11-01 19:05:55.745
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-01 19:05:55.745
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@502b9399,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36bf28d2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 19:14:03.643
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2017-11-01 19:16:02.431 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 19:16:07.646
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-01 19:16:13.301
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-01 19:16:31.210
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-11-01 19:16:45.991
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-01 19:16:45.991
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21dd91da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d6e3e42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SESSION 2017-11-01 19:19:34.757 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 19:19:48.923
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-01 19:19:54.243
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-01 19:20:12.934
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-11-01 19:20:19.690
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-01 19:20:19.690
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@433db56d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d6e3e42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-11-01 19:20:34.969
+!MESSAGE Connection to http://jasperstudio.sf.net/jssproductrepo_E4_CE/p2.index failed on Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:177)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-11-01 19:35:17.123 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 19:35:19.012
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-01 19:35:20.894
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-01 19:35:31.368
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-11-01 19:35:35.494
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-01 19:35:35.494
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@502b9399,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@487fc205,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SESSION 2017-11-01 19:38:45.296 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 19:38:47.230
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-01 19:38:48.891
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-01 19:38:58.755
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-11-01 19:39:05.898
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-01 19:39:05.898
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@502b9399,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@15733aa5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SESSION 2017-11-01 19:57:04.359 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 19:57:08.510
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-01 19:57:12.801
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-01 19:57:29.015
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-11-01 20:00:15.833
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-01 20:00:15.833
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21dd91da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@489cbbcb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+!SESSION 2017-11-01 20:09:45.053 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 20:09:46.922
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-01 20:09:48.541
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-01 20:09:57.550
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-11-01 20:15:43.144
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-01 20:15:43.144
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b85edc7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6844b46a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 21:23:57.639
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2017-11-26 19:15:44.294 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-26 19:15:46.905
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-26 19:15:49.845
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY com.jaspersoft.studio 4 0 2017-11-26 19:15:57.585
+!MESSAGE Error while checking for updates
+!STACK 0
+java.net.UnknownHostException: jasperstudio.sf.net
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:102)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at com.jaspersoft.studio.statistics.UsageManager.checkVersion(UsageManager.java:772)
+	at com.jaspersoft.studio.statistics.heartbeat.Heartbeat.run(Heartbeat.java:23)
+	at com.jaspersoft.studio.statistics.UsageManager$3.run(UsageManager.java:617)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-26 19:16:07.654
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dnlhi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2017-11-26 19:16:09.374
+!MESSAGE Connection to http://jasperstudio.sf.net/jssproductrepo_E4_CE/p2.index failed on jasperstudio.sf.net. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: jasperstudio.sf.net
+	at java.net.Inet4AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2017-11-26 19:16:09.760
+!MESSAGE Unknown Host: http://jasperstudio.sf.net/jssproductrepo_E4_CE/content.xml
+!STACK 0
+java.net.UnknownHostException: jasperstudio.sf.net
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:263)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.jface 2 0 2017-11-26 19:17:45.020
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-26 19:17:45.020
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@26c2f767,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@314ecfa1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY org.eclipse.text 4 2 2017-11-26 19:18:07.941
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.getLinePixel(StyledText.java:4254)
+	at org.eclipse.swt.custom.StyledText.handleTextChanging(StyledText.java:6361)
+	at org.eclipse.swt.custom.StyledText$6.textChanging(StyledText.java:5707)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextChanging(DefaultDocumentAdapter.java:367)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentAboutToBeChanged(DefaultDocumentAdapter.java:284)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:632)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1132)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-26 19:18:07.946
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Scrollable.getVerticalBar(Scrollable.java:280)
+	at org.eclipse.swt.custom.StyledText.reset(StyledText.java:7991)
+	at org.eclipse.swt.custom.StyledText.handleTextSet(StyledText.java:6390)
+	at org.eclipse.swt.custom.StyledText$6.textSet(StyledText.java:5715)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextSet(DefaultDocumentAdapter.java:339)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentChanged(DefaultDocumentAdapter.java:264)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:735)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-26 19:18:07.952
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7932)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4692)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4769)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:560)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.access$3(PresentationReconciler.java:545)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:212)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2699)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:743)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-26 19:53:15.396
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2017-11-27 18:57:10.720 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-27 18:57:15.130
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-27 18:57:21.091
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.osgi 2 0 2017-11-27 18:57:24.673
+!MESSAGE While loading class "com.jaspersoft.studio.server.container.JRSClasspathContainerInitializer", thread "Thread[Worker-4,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-2,5,main]" to finish starting bundle "com.jaspersoft.studio.server_6.4.3.final [39]". To avoid deadlock, thread "Thread[Worker-4,5,main]" is proceeding but "com.jaspersoft.studio.server.container.JRSClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="6.4.3.final"; osgi.identity="com.jaspersoft.studio.server"; singleton:="true" [id=39] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3471)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3447)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2920)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2883)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3424)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	... 37 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:334)
+	at org.eclipse.osgi.container.Module.start(Module.java:401)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:470)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:529)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:325)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:423)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:372)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:364)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:161)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:564)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3471)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3447)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2920)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:2845)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:2883)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1965)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3424)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2693)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857)
+	at org.eclipse.jdt.internal.core.ClasspathChange.generateDelta(ClasspathChange.java:235)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2032)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:477)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.events.NotificationManager$NotifyJob.run(NotificationManager.java:43)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-27 18:57:37.365
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-11-27 19:51:58.907
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-27 19:51:58.907
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@124ff64d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17fdbefb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY org.eclipse.text 4 2 2017-11-27 20:04:05.266
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.getLinePixel(StyledText.java:4254)
+	at org.eclipse.swt.custom.StyledText.handleTextChanging(StyledText.java:6361)
+	at org.eclipse.swt.custom.StyledText$6.textChanging(StyledText.java:5707)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextChanging(DefaultDocumentAdapter.java:367)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentAboutToBeChanged(DefaultDocumentAdapter.java:284)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:632)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1132)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-27 20:04:05.269
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Scrollable.getVerticalBar(Scrollable.java:280)
+	at org.eclipse.swt.custom.StyledText.reset(StyledText.java:7991)
+	at org.eclipse.swt.custom.StyledText.handleTextSet(StyledText.java:6390)
+	at org.eclipse.swt.custom.StyledText$6.textSet(StyledText.java:5715)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextSet(DefaultDocumentAdapter.java:339)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentChanged(DefaultDocumentAdapter.java:264)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:735)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-27 20:04:05.276
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7932)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4692)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4769)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:560)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.access$3(PresentationReconciler.java:545)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:212)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2699)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:743)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-27 20:04:05.282
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException
+	at java.lang.System.arraycopy(Native Method)
+	at org.eclipse.swt.custom.StyledTextRenderer.textChanging(StyledTextRenderer.java:1419)
+	at org.eclipse.swt.custom.StyledText.handleTextChanging(StyledText.java:6373)
+	at org.eclipse.swt.custom.StyledText$6.textChanging(StyledText.java:5707)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextChanging(DefaultDocumentAdapter.java:367)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentAboutToBeChanged(DefaultDocumentAdapter.java:284)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:632)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1132)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at org.eclipse.ui.editors.text.FileDocumentProvider.handleElementContentChanged(FileDocumentProvider.java:830)
+	at org.eclipse.ui.editors.text.FileDocumentProvider$FileSynchronizer$1.execute(FileDocumentProvider.java:263)
+	at org.eclipse.ui.editors.text.FileDocumentProvider$SafeChange.run(FileDocumentProvider.java:162)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at com.jaspersoft.studio.rcp.intro.Application.start(Application.java:91)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.text 4 2 2017-11-27 20:34:01.353
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.getLinePixel(StyledText.java:4254)
+	at org.eclipse.swt.custom.StyledText.handleTextChanging(StyledText.java:6361)
+	at org.eclipse.swt.custom.StyledText$6.textChanging(StyledText.java:5707)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextChanging(DefaultDocumentAdapter.java:367)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentAboutToBeChanged(DefaultDocumentAdapter.java:284)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:632)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1132)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-27 20:34:01.356
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Scrollable.getVerticalBar(Scrollable.java:280)
+	at org.eclipse.swt.custom.StyledText.reset(StyledText.java:7991)
+	at org.eclipse.swt.custom.StyledText.handleTextSet(StyledText.java:6390)
+	at org.eclipse.swt.custom.StyledText$6.textSet(StyledText.java:5715)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextSet(DefaultDocumentAdapter.java:339)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentChanged(DefaultDocumentAdapter.java:264)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:735)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-27 20:34:01.358
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7932)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4692)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4769)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:560)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.access$3(PresentationReconciler.java:545)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:212)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2699)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:743)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-27 20:35:00.305
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.getLinePixel(StyledText.java:4254)
+	at org.eclipse.swt.custom.StyledText.handleTextChanging(StyledText.java:6361)
+	at org.eclipse.swt.custom.StyledText$6.textChanging(StyledText.java:5707)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextChanging(DefaultDocumentAdapter.java:367)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentAboutToBeChanged(DefaultDocumentAdapter.java:284)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:632)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1132)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-27 20:35:00.307
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Scrollable.getVerticalBar(Scrollable.java:280)
+	at org.eclipse.swt.custom.StyledText.reset(StyledText.java:7991)
+	at org.eclipse.swt.custom.StyledText.handleTextSet(StyledText.java:6390)
+	at org.eclipse.swt.custom.StyledText$6.textSet(StyledText.java:5715)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextSet(DefaultDocumentAdapter.java:339)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentChanged(DefaultDocumentAdapter.java:264)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:735)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-27 20:35:00.319
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7932)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4692)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4769)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:560)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.access$3(PresentationReconciler.java:545)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:212)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2699)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:743)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-27 22:50:30.093
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2017-11-28 18:15:32.004 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-28 18:15:52.371
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.jaspersoft.studio 1 0 2017-11-28 18:15:58.971
+!MESSAGE Starting JaspersoftStudio bundle - Version: 6.4.3.final
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-28 18:16:18.328
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Daniel'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface 2 0 2017-11-28 19:12:05.950
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-11-28 19:12:05.950
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1bed61d2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.showInformation,Show Tooltip Description,
+		Displays information for the current caret location in a focused hover,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5113d1f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.xtext.ui.embeddedTextEditorScope,,,system)
+
+!ENTRY org.eclipse.text 4 2 2017-11-28 20:34:35.065
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.getLinePixel(StyledText.java:4254)
+	at org.eclipse.swt.custom.StyledText.handleTextChanging(StyledText.java:6361)
+	at org.eclipse.swt.custom.StyledText$6.textChanging(StyledText.java:5707)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextChanging(DefaultDocumentAdapter.java:367)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentAboutToBeChanged(DefaultDocumentAdapter.java:284)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentAboutToBeChanged(AbstractDocument.java:632)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1132)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-28 20:34:35.068
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.widgets.Scrollable.getVerticalBar(Scrollable.java:280)
+	at org.eclipse.swt.custom.StyledText.reset(StyledText.java:7991)
+	at org.eclipse.swt.custom.StyledText.handleTextSet(StyledText.java:6390)
+	at org.eclipse.swt.custom.StyledText$6.textSet(StyledText.java:5715)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.fireTextSet(DefaultDocumentAdapter.java:339)
+	at org.eclipse.jface.text.DefaultDocumentAdapter.documentChanged(DefaultDocumentAdapter.java:264)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:735)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.text 4 2 2017-11-28 20:34:35.071
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.text".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:373)
+	at org.eclipse.swt.custom.StyledText.replaceStyleRanges(StyledText.java:7932)
+	at org.eclipse.jface.text.TextViewer.addPresentation(TextViewer.java:4692)
+	at org.eclipse.jface.text.TextViewer.changeTextPresentation(TextViewer.java:4769)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.applyTextRegionCollection(PresentationReconciler.java:560)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.processDamage(PresentationReconciler.java:549)
+	at org.eclipse.jface.text.presentation.PresentationReconciler.access$3(PresentationReconciler.java:545)
+	at org.eclipse.jface.text.presentation.PresentationReconciler$InternalListener.textChanged(PresentationReconciler.java:212)
+	at org.eclipse.jface.text.TextViewer.updateTextListeners(TextViewer.java:2699)
+	at org.eclipse.jface.text.TextViewer$VisibleDocumentListener.documentChanged(TextViewer.java:401)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:743)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:712)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:696)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:770)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1141)
+	at org.eclipse.jface.text.AbstractDocument.set(AbstractDocument.java:1124)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.model2xml(AbstractJRXMLEditor.java:1017)
+	at com.jaspersoft.studio.editor.AbstractJRXMLEditor.doSave(AbstractJRXMLEditor.java:654)
+	at com.jaspersoft.studio.editor.action.CompileAction$1.run(CompileAction.java:96)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-28 22:20:02.672
+!MESSAGE The workspace will exit with unsaved changes in this session.

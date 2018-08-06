@@ -1,0 +1,20 @@
+Mon Sep 11 00:06:36 BRT 2017 : Apache Derby Servidor de Rede - 10.10.2.0 - (1582446) iniciado e pronto para aceitar conexões na porta 1527 em {3}
+----------------------------------------------------------------
+Mon Sep 11 00:06:36 BRT 2017:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instância a816c00e-015e-6ee7-18b7-ffff9d7e58af
+no diretório de banco de dados C:\Users\Daniel\Dropbox\FATEC\2017\2º Semestre\Programação Orientada a Objetos Avançada\NetBeansProjects\Projeto\BD\SCN 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_144-b01
+user.dir=D:\Program Files\glassfish-4.1.1\javadb
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=C:\Users\Daniel\Dropbox\FATEC\2017\2º Semestre\Programação Orientada a Objetos Avançada\NetBeansProjects\Projeto\BD
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Sep 11 00:54:05 BRT 2017: Shutting down Derby engine
+----------------------------------------------------------------
+Mon Sep 11 00:54:05 BRT 2017:
+Encerrando a instância a816c00e-015e-6ee7-18b7-ffff9d7e58af
+----------------------------------------------------------------

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+              <Component id="btAdicionar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Component id="btCancelar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Component id="btLimpar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="487" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="painelDadosPessoais" alignment="0" max="32767" attributes="0"/>
+                  <Component id="lbNomeCompeticao" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Component id="lbNomeCompeticao" min="-2" pref="36" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="painelDadosPessoais" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btAdicionar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btLimpar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btAdicionar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Adicionar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btAdicionarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btCancelar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btCancelarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btLimpar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btLimparActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JPanel" name="painelDadosPessoais">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Dados da Equipe"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lbNome" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="lbFoto" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lbNacionalidade" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="cbNacionalidade" pref="573" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="cbStatus" min="-2" pref="98" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="tfNome" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="lbFoto" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbNacionalidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbNacionalidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbStatus" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="142" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lbNome">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nome"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbNacionalidade">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nacionalidade"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfNome">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tfNomeActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbNacionalidade">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="257">
+                <StringItem index="0" value="Afeganist&#xe3;o"/>
+                <StringItem index="1" value="&#xc1;frica do Sul"/>
+                <StringItem index="2" value="Akrotiri"/>
+                <StringItem index="3" value="Alb&#xe2;nia"/>
+                <StringItem index="4" value="Alemanha"/>
+                <StringItem index="5" value="Andorra"/>
+                <StringItem index="6" value="Angola"/>
+                <StringItem index="7" value="Anguila"/>
+                <StringItem index="8" value="Ant&#xe1;rctida"/>
+                <StringItem index="9" value="Ant&#xed;gua e Barbuda"/>
+                <StringItem index="10" value="Antilhas Neerlandesas"/>
+                <StringItem index="11" value="Ar&#xe1;bia Saudita"/>
+                <StringItem index="12" value="Arctic Ocean"/>
+                <StringItem index="13" value="Arg&#xe9;lia"/>
+                <StringItem index="14" value="Argentina"/>
+                <StringItem index="15" value="Arm&#xe9;nia"/>
+                <StringItem index="16" value="Aruba"/>
+                <StringItem index="17" value="Ashmore and Cartier Islands"/>
+                <StringItem index="18" value="Atlantic Ocean"/>
+                <StringItem index="19" value="Austr&#xe1;lia"/>
+                <StringItem index="20" value="&#xc1;ustria"/>
+                <StringItem index="21" value="Azerbaij&#xe3;o"/>
+                <StringItem index="22" value="Baamas"/>
+                <StringItem index="23" value="Bangladeche"/>
+                <StringItem index="24" value="Barbados"/>
+                <StringItem index="25" value="Bar&#xe9;m"/>
+                <StringItem index="26" value="B&#xe9;lgica"/>
+                <StringItem index="27" value="Belize"/>
+                <StringItem index="28" value="Benim"/>
+                <StringItem index="29" value="Bermudas"/>
+                <StringItem index="30" value="Bielorr&#xfa;ssia"/>
+                <StringItem index="31" value="Birm&#xe2;nia"/>
+                <StringItem index="32" value="Bol&#xed;via"/>
+                <StringItem index="33" value="B&#xf3;snia e Herzegovina"/>
+                <StringItem index="34" value="Botsuana"/>
+                <StringItem index="35" value="Brasil"/>
+                <StringItem index="36" value="Brunei"/>
+                <StringItem index="37" value="Bulg&#xe1;ria"/>
+                <StringItem index="38" value="Burquina Faso"/>
+                <StringItem index="39" value="Bur&#xfa;ndi"/>
+                <StringItem index="40" value="But&#xe3;o"/>
+                <StringItem index="41" value="Cabo Verde"/>
+                <StringItem index="42" value="Camar&#xf5;es"/>
+                <StringItem index="43" value="Camboja"/>
+                <StringItem index="44" value="Canad&#xe1;"/>
+                <StringItem index="45" value="Catar"/>
+                <StringItem index="46" value="Cazaquist&#xe3;o"/>
+                <StringItem index="47" value="Chade"/>
+                <StringItem index="48" value="Chile"/>
+                <StringItem index="49" value="China"/>
+                <StringItem index="50" value="Chipre"/>
+                <StringItem index="51" value="Clipperton Island"/>
+                <StringItem index="52" value="Col&#xf4;mbia"/>
+                <StringItem index="53" value="Comores"/>
+                <StringItem index="54" value="Congo-Brazzaville"/>
+                <StringItem index="55" value="Congo-Kinshasa"/>
+                <StringItem index="56" value="Coral Sea Islands"/>
+                <StringItem index="57" value="Coreia do Norte"/>
+                <StringItem index="58" value="Coreia do Sul"/>
+                <StringItem index="59" value="Costa do Marfim"/>
+                <StringItem index="60" value="Costa Rica"/>
+                <StringItem index="61" value="Cro&#xe1;cia"/>
+                <StringItem index="62" value="Cuba"/>
+                <StringItem index="63" value="Dhekelia"/>
+                <StringItem index="64" value="Dinamarca"/>
+                <StringItem index="65" value="Dom&#xed;nica"/>
+                <StringItem index="66" value="Egipto"/>
+                <StringItem index="67" value="Emiratos &#xc1;rabes Unidos"/>
+                <StringItem index="68" value="Equador"/>
+                <StringItem index="69" value="Eritreia"/>
+                <StringItem index="70" value="Eslov&#xe1;quia"/>
+                <StringItem index="71" value="Eslov&#xe9;nia"/>
+                <StringItem index="72" value="Espanha"/>
+                <StringItem index="73" value="Estados Unidos"/>
+                <StringItem index="74" value="Est&#xf3;nia"/>
+                <StringItem index="75" value="Eti&#xf3;pia"/>
+                <StringItem index="76" value="Faro&#xe9;"/>
+                <StringItem index="77" value="Fiji"/>
+                <StringItem index="78" value="Filipinas"/>
+                <StringItem index="79" value="Finl&#xe2;ndia"/>
+                <StringItem index="80" value="Fran&#xe7;a"/>
+                <StringItem index="81" value="Gab&#xe3;o"/>
+                <StringItem index="82" value="G&#xe2;mbia"/>
+                <StringItem index="83" value="Gana"/>
+                <StringItem index="84" value="Gaza Strip"/>
+                <StringItem index="85" value="Ge&#xf3;rgia"/>
+                <StringItem index="86" value="Ge&#xf3;rgia do Sul e Sandwich do Sul"/>
+                <StringItem index="87" value="Gibraltar"/>
+                <StringItem index="88" value="Granada"/>
+                <StringItem index="89" value="Gr&#xe9;cia"/>
+                <StringItem index="90" value="Gronel&#xe2;ndia"/>
+                <StringItem index="91" value="Guame"/>
+                <StringItem index="92" value="Guatemala"/>
+                <StringItem index="93" value="Guernsey"/>
+                <StringItem index="94" value="Guiana"/>
+                <StringItem index="95" value="Guin&#xe9;"/>
+                <StringItem index="96" value="Guin&#xe9; Equatorial"/>
+                <StringItem index="97" value="Guin&#xe9;-Bissau"/>
+                <StringItem index="98" value="Haiti"/>
+                <StringItem index="99" value="Honduras"/>
+                <StringItem index="100" value="Hong Kong"/>
+                <StringItem index="101" value="Hungria"/>
+                <StringItem index="102" value="I&#xe9;men"/>
+                <StringItem index="103" value="Ilha Bouvet"/>
+                <StringItem index="104" value="Ilha do Natal"/>
+                <StringItem index="105" value="Ilha Norfolk"/>
+                <StringItem index="106" value="Ilhas Caim&#xe3;o"/>
+                <StringItem index="107" value="Ilhas Cook"/>
+                <StringItem index="108" value="Ilhas dos Cocos"/>
+                <StringItem index="109" value="Ilhas Falkland"/>
+                <StringItem index="110" value="Ilhas Heard e McDonald"/>
+                <StringItem index="111" value="Ilhas Marshall"/>
+                <StringItem index="112" value="Ilhas Salom&#xe3;o"/>
+                <StringItem index="113" value="Ilhas Turcas e Caicos"/>
+                <StringItem index="114" value="Ilhas Virgens Americanas"/>
+                <StringItem index="115" value="Ilhas Virgens Brit&#xe2;nicas"/>
+                <StringItem index="116" value="&#xcd;ndia"/>
+                <StringItem index="117" value="Indian Ocean"/>
+                <StringItem index="118" value="Indon&#xe9;sia"/>
+                <StringItem index="119" value="Ir&#xe3;o"/>
+                <StringItem index="120" value="Iraque"/>
+                <StringItem index="121" value="Irlanda"/>
+                <StringItem index="122" value="Isl&#xe2;ndia"/>
+                <StringItem index="123" value="Israel"/>
+                <StringItem index="124" value="It&#xe1;lia"/>
+                <StringItem index="125" value="Jamaica"/>
+                <StringItem index="126" value="Jan Mayen"/>
+                <StringItem index="127" value="Jap&#xe3;o"/>
+                <StringItem index="128" value="Jersey"/>
+                <StringItem index="129" value="Jibuti"/>
+                <StringItem index="130" value="Jord&#xe2;nia"/>
+                <StringItem index="131" value="Kuwait"/>
+                <StringItem index="132" value="Laos"/>
+                <StringItem index="133" value="Lesoto"/>
+                <StringItem index="134" value="Let&#xf3;nia"/>
+                <StringItem index="135" value="L&#xed;bano"/>
+                <StringItem index="136" value="Lib&#xe9;ria"/>
+                <StringItem index="137" value="L&#xed;bia"/>
+                <StringItem index="138" value="Listenstaine"/>
+                <StringItem index="139" value="Litu&#xe2;nia"/>
+                <StringItem index="140" value="Luxemburgo"/>
+                <StringItem index="141" value="Macau"/>
+                <StringItem index="142" value="Maced&#xf3;nia"/>
+                <StringItem index="143" value="Madag&#xe1;scar"/>
+                <StringItem index="144" value="Mal&#xe1;sia"/>
+                <StringItem index="145" value="Mal&#xe1;vi"/>
+                <StringItem index="146" value="Maldivas"/>
+                <StringItem index="147" value="Mali"/>
+                <StringItem index="148" value="Malta"/>
+                <StringItem index="149" value="Man"/>
+                <StringItem index="150" value="Isle of"/>
+                <StringItem index="151" value="Marianas do Norte"/>
+                <StringItem index="152" value="Marrocos"/>
+                <StringItem index="153" value="Maur&#xed;cia"/>
+                <StringItem index="154" value="Maurit&#xe2;nia"/>
+                <StringItem index="155" value="Mayotte"/>
+                <StringItem index="156" value="M&#xe9;xico"/>
+                <StringItem index="157" value="Micron&#xe9;sia"/>
+                <StringItem index="158" value="Mo&#xe7;ambique"/>
+                <StringItem index="159" value="Mold&#xe1;via"/>
+                <StringItem index="160" value="M&#xf3;naco"/>
+                <StringItem index="161" value="Mong&#xf3;lia"/>
+                <StringItem index="162" value="Monserrate"/>
+                <StringItem index="163" value="Montenegro"/>
+                <StringItem index="164" value="Mundo"/>
+                <StringItem index="165" value="Nam&#xed;bia"/>
+                <StringItem index="166" value="Nauru"/>
+                <StringItem index="167" value="Navassa Island"/>
+                <StringItem index="168" value="Nepal"/>
+                <StringItem index="169" value="Nicar&#xe1;gua"/>
+                <StringItem index="170" value="N&#xed;ger"/>
+                <StringItem index="171" value="Nig&#xe9;ria"/>
+                <StringItem index="172" value="Niue"/>
+                <StringItem index="173" value="Noruega"/>
+                <StringItem index="174" value="Nova Caled&#xf3;nia"/>
+                <StringItem index="175" value="Nova Zel&#xe2;ndia"/>
+                <StringItem index="176" value="Om&#xe3;"/>
+                <StringItem index="177" value="Pacific Ocean"/>
+                <StringItem index="178" value="Pa&#xed;ses Baixos"/>
+                <StringItem index="179" value="Palau"/>
+                <StringItem index="180" value="Panam&#xe1;"/>
+                <StringItem index="181" value="Papua-Nova Guin&#xe9;"/>
+                <StringItem index="182" value="Paquist&#xe3;o"/>
+                <StringItem index="183" value="Paracel Islands"/>
+                <StringItem index="184" value="Paraguai"/>
+                <StringItem index="185" value="Peru"/>
+                <StringItem index="186" value="Pitcairn"/>
+                <StringItem index="187" value="Polin&#xe9;sia Francesa"/>
+                <StringItem index="188" value="Pol&#xf3;nia"/>
+                <StringItem index="189" value="Porto Rico"/>
+                <StringItem index="190" value="Portugal"/>
+                <StringItem index="191" value="Qu&#xe9;nia"/>
+                <StringItem index="192" value="Quirguizist&#xe3;o"/>
+                <StringItem index="193" value="Quirib&#xe1;ti"/>
+                <StringItem index="194" value="Reino Unido"/>
+                <StringItem index="195" value="Rep&#xfa;blica Centro-Africana"/>
+                <StringItem index="196" value="Rep&#xfa;blica Checa"/>
+                <StringItem index="197" value="Rep&#xfa;blica Dominicana"/>
+                <StringItem index="198" value="Rom&#xe9;nia"/>
+                <StringItem index="199" value="Ruanda"/>
+                <StringItem index="200" value="R&#xfa;ssia"/>
+                <StringItem index="201" value="Salvador"/>
+                <StringItem index="202" value="Samoa"/>
+                <StringItem index="203" value="Samoa Americana"/>
+                <StringItem index="204" value="Santa Helena"/>
+                <StringItem index="205" value="Santa L&#xfa;cia"/>
+                <StringItem index="206" value="S&#xe3;o Crist&#xf3;v&#xe3;o e Neves"/>
+                <StringItem index="207" value="S&#xe3;o Marinho"/>
+                <StringItem index="208" value="S&#xe3;o Pedro e Miquelon"/>
+                <StringItem index="209" value="S&#xe3;o Tom&#xe9; e Pr&#xed;ncipe"/>
+                <StringItem index="210" value="S&#xe3;o Vicente e Granadinas"/>
+                <StringItem index="211" value="Sara Ocidental"/>
+                <StringItem index="212" value="Seicheles"/>
+                <StringItem index="213" value="Senegal"/>
+                <StringItem index="214" value="Serra Leoa"/>
+                <StringItem index="215" value="S&#xe9;rvia"/>
+                <StringItem index="216" value="Singapura"/>
+                <StringItem index="217" value="S&#xed;ria"/>
+                <StringItem index="218" value="Som&#xe1;lia"/>
+                <StringItem index="219" value="Southern Ocean"/>
+                <StringItem index="220" value="Spratly Islands"/>
+                <StringItem index="221" value="Sri Lanca"/>
+                <StringItem index="222" value="Suazil&#xe2;ndia"/>
+                <StringItem index="223" value="Sud&#xe3;o"/>
+                <StringItem index="224" value="Su&#xe9;cia"/>
+                <StringItem index="225" value="Su&#xed;&#xe7;a"/>
+                <StringItem index="226" value="Suriname"/>
+                <StringItem index="227" value="Svalbard e Jan Mayen"/>
+                <StringItem index="228" value="Tail&#xe2;ndia"/>
+                <StringItem index="229" value="Taiwan"/>
+                <StringItem index="230" value="Tajiquist&#xe3;o"/>
+                <StringItem index="231" value="Tanz&#xe2;nia"/>
+                <StringItem index="232" value="Territ&#xf3;rio Brit&#xe2;nico do Oceano &#xcd;ndico"/>
+                <StringItem index="233" value="Territ&#xf3;rios Austrais Franceses"/>
+                <StringItem index="234" value="Timor Leste"/>
+                <StringItem index="235" value="Togo"/>
+                <StringItem index="236" value="Tokelau"/>
+                <StringItem index="237" value="Tonga"/>
+                <StringItem index="238" value="Trindade e Tobago"/>
+                <StringItem index="239" value="Tun&#xed;sia"/>
+                <StringItem index="240" value="Turquemenist&#xe3;o"/>
+                <StringItem index="241" value="Turquia"/>
+                <StringItem index="242" value="Tuvalu"/>
+                <StringItem index="243" value="Ucr&#xe2;nia"/>
+                <StringItem index="244" value="Uganda"/>
+                <StringItem index="245" value="Uni&#xe3;o Europeia"/>
+                <StringItem index="246" value="Uruguai"/>
+                <StringItem index="247" value="Usbequist&#xe3;o"/>
+                <StringItem index="248" value="Vanuatu"/>
+                <StringItem index="249" value="Vaticano"/>
+                <StringItem index="250" value="Venezuela"/>
+                <StringItem index="251" value="Vietname"/>
+                <StringItem index="252" value="Wake Island"/>
+                <StringItem index="253" value="Wallis e Futuna"/>
+                <StringItem index="254" value="West Bank"/>
+                <StringItem index="255" value="Z&#xe2;mbia"/>
+                <StringItem index="256" value="Zimbabu&#xe9;"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cbNacionalidadeActionPerformed"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbFoto">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="FOTO EQUIPE"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Status"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="cbStatus">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="ATIVA"/>
+                <StringItem index="1" value="INATIVA"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="lbNomeCompeticao">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="129"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
